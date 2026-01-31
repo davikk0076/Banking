@@ -1,0 +1,70 @@
+:root {
+            --primary-color: #4361ee;
+            --secondary-color: #3a0ca3;
+            --primary-red: #e63946;
+            --secondary-red: #d90429;
+        }
+        
+        body {
+            padding-top: 20px;
+            padding-bottom: 40px;
+            background-color: #f5f7fb;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+        
+        .box {
+            text-align: center;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+            border: 1px solid #eaeaea;
+        }
+        
+        .transaction-main {
+            font-size: 1.2rem;
+            font-weight: 700;
+            line-height: 1;
+        }
+        
+        .transaction-label {
+            font-size: 0.9rem;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+   
+        .btn-standard {
+            border-radius: 8px;
+            padding: 5px 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary-custom {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary-custom:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .btn-red {
+            background-color: var(--primary-red);
+            border-color: var(--primary-red);
+        }
+        
+        .btn-red:hover {
+            background-color: var(--secondary-red);
+            border-color: var(--secondary-red);
+            transform: translateY(-2px);
+        }
+        
+        .scale-75 {
+            transform: scale(0.75);
+        }
+
+        .scale-50 {
+            transform: scale(0.5);
+        }

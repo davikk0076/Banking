@@ -1,0 +1,30 @@
+{
+  "name": "banking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"node api.js\" \"cd reactapp && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davikk76/banking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/davikk76/banking/issues"
+  },
+  "homepage": "https://github.com/davikk76/banking#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "react": "^19.2.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
